@@ -700,6 +700,7 @@ section {
 }
 
 .place-section .place-text .place-feature-list ul li {
+  max-width: 485px;
   position: relative;
   padding-left: 50px;
   color: #131318;
@@ -794,7 +795,7 @@ section {
   transition: all 0.5s ease;
 }
 
-.newsletter-section .newsletter-form input:focus{
+.newsletter-section .newsletter-form input:focus {
   border: 1px solid #ff5400;
 }
 
