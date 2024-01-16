@@ -94,7 +94,6 @@ section {
   display: inline-block;
   padding: 14px 35px;
   outline: none;
-  /* border: 1px solid #ff5400; */
   border-radius: 8px;
   background-color: #ff5400;
   color: #fff;
@@ -117,7 +116,6 @@ section {
   left: 0;
   width: 0;
   height: 100%;
-  /* border-radius: 8px; */
   border-color: #131318;
   background-color: #131318;
   z-index: -1;
@@ -297,14 +295,14 @@ section {
 
 .hero-section .hero-booking-form form select {
   color: rgba(19, 19, 24, 0.5);
-  /* appearance: none;
+  appearance: none;
   --webkit-appearance: none;
-  --moz-appearance: none; */
+  --moz-appearance: none;
   cursor: pointer;
   background-image: url("../img/arrow.png");
   background-repeat: no-repeat;
-  background-size: 100px;
-  background-position: 247px 0;
+  background-size: 12px;
+  background-position: center right 20px;
 }
 
 .hero-section .hero-booking-form form select option {
@@ -787,12 +785,17 @@ section {
   padding: 20px;
   outline: none;
   border-radius: 8px;
-  border: 0;
+  border: 1px solid rgba(19, 19, 24, 0.05);
   background-color: rgba(19, 19, 24, 0.05);
   color: #131318;
   font-size: 16px;
   font-family: Mulish;
   font-weight: 400;
+  transition: all 0.5s ease;
+}
+
+.newsletter-section .newsletter-form input:focus{
+  border: 1px solid #ff5400;
 }
 
 .newsletter-section .newsletter-form .newsletter-btn {

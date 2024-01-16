@@ -88,11 +88,11 @@
   }
   .brand-section .brand-content-wrapper {
     row-gap: 35px;
-}
+  }
   .brand-section .brand-item {
     flex-basis: 45%;
     max-width: 45%;
-}
+  }
   .deals-section .deals-item {
     width: 100%;
     height: auto;
@@ -136,16 +136,19 @@
 }
 
 @media only screen and (max-width: 767px) {
+  iframe {
+    height: 200px;
+}
   section {
     padding: 20px 0;
   }
   .brand-section .brand-content-wrapper {
     row-gap: 35px;
-}
+  }
   .brand-section .brand-item {
     flex-basis: 100%;
     max-width: 100%;
-}
+  }
   .container {
     padding: 0 4%;
   }
@@ -279,6 +282,9 @@
   }
   .deals-section .deals-item .deals-text .price {
     font-size: 16px;
+  }
+  .deals-section .deals-item:nth-child(2) .deals-text{
+    left: 0;
   }
   .place-section .place-text .place-feature-list ul li {
     font-size: 14px;
